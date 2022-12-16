@@ -8,8 +8,6 @@ import time
 from library.helpers import *
 from actions import process_message
 
-from pprint import pprint
-
 logging.basicConfig()
 
 STATE = {}
@@ -27,7 +25,6 @@ async def register(websocket):
 
 
 async def unregister(connection_id):
-    # CONNECTIONS.remove(connection_id)
     pass
 
 
